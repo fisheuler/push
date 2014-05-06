@@ -18,3 +18,15 @@ push
 
 
 
+可以参考的文档连接地址：
+
+1.
+A Million-user Comet Application with Mochiweb
+http://www.metabrew.com/article/a-million-user-comet-application-with-mochiweb-part-3
+
+2.
+
+100万并发连接服务器笔记之处理端口数量受限问题
+
+http://www.blogjava.net/yongboy/archive/2013/04/09/397594.html
+
