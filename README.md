@@ -18,6 +18,14 @@ push
 
 
 
+统计数据：
+
+socket建立连接数：
+
+![socket建立连接数](https://raw.githubusercontent.com/fisheuler/push/master/image/tcp-socket.jpg)
+
+
+
 可以参考的文档连接地址：
 
 1.
