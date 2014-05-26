@@ -30,10 +30,10 @@ socket建立连接数：
 
 内存消耗对比：
 
-![运行前内存统计](https://raw.githubusercontent.com/fisheuler/push/master/image/memory-consume.png)
+![memory consume before run the test](https://raw.githubusercontent.com/fisheuler/push/master/image/memory-consume.png)
 
 
-![运行后内存统计](https://raw.githubusercontent.com/fisheuler/push/master/image/memory-consume-2.png)
+![memory consume after run the test](https://raw.githubusercontent.com/fisheuler/push/master/image/memory-consume-2.png)
 
 
 整个建立连接的过程耗费了大约有五分钟的时间。
