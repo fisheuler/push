@@ -10,6 +10,8 @@ push
 现在的程序主要是用于创建tcp长连接的程序。
 
 
+一 方法介绍和脚本说明
+
 主要的方法，是在单台主机上建立20个左右的虚拟ip地址，每个虚拟ip地址大约有6w个可用的端口号，差不多可以
 和服务器端建立20*6w ~ 100w个tcp长连接。
 
@@ -18,11 +20,21 @@ push
 
 
 
-统计数据：
+
+二 统计数据：
 
 socket建立连接数：
 
 ![socket建立连接数](https://raw.githubusercontent.com/fisheuler/push/master/image/tcp-socket.jpg)
+
+
+内存消耗对比：
+
+![运行前内存统计](https://raw.githubusercontent.com/fisheuler/push/master/image/memory-consume.png)
+![运行后内存统计](https://raw.githubusercontent.com/fisheuler/push/master/image/memory-consume-2.png)
+
+
+整个建立连接的过程耗费了大约有五分钟的时间。
 
 
 
